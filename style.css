@@ -1,0 +1,80 @@
+body {
+    background-color: #c2f1c2;
+}
+.card {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background: white;
+    top: 40px;
+    left: 40%;
+    border-radius: 5px;
+}
+
+input {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"]{
+    width: 150px;
+    height: 35px;
+}
+
+.field {
+    width: 337px;
+    height: 35px;
+}
+
+.card > h1, p{
+    text-align: center;
+} 
+
+div > button {
+    font-weight: bold;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 25px;
+    font-size: 17px;
+    background-color: green;
+    color: white;
+}
+
+.have-account {
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+}
+
+@media (max-width: 680px){
+    .card {
+        width: 50%;
+        height: 520px
+    }
+
+    input {
+        margin-left: 20px;
+    }
+
+    input[type="text"]{
+        width: 110px;
+    }
+
+    .field {
+        width: 256px;
+    }
+    
+    span{
+        font-size: 14px;
+    }
+
+    div > button {
+        width: 256px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
