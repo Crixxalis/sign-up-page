@@ -1,14 +1,22 @@
 body {
     background-color: #c2f1c2;
 }
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
 .card {
-    position: relative;
-    width: 400px;
+    max-width: 430px;
     height: 550px;
     background: white;
-    top: 40px;
-    left: 40%;
     border-radius: 5px;
+    margin: 0;
 }
 
 input {
@@ -43,38 +51,16 @@ div > button {
 }
 
 .have-account {
-    margin-top: 60px;
+    margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 90px;
+  
+    text-align: center;
 }
 
 @media (max-width: 680px){
-    .card {
-        width: 50%;
-        height: 520px
-    }
-
-    input {
-        margin-left: 20px;
-    }
-
-    input[type="text"]{
-        width: 110px;
-    }
-
-    .field {
-        width: 256px;
-    }
-    
-    span{
-        font-size: 14px;
-    }
-
-    div > button {
-        width: 256px;
-    }
-
-    p {
-        font-size: 14px;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
